@@ -92,7 +92,7 @@ const App = () => {
             >
               <div className="bg-gray-950 rounded-[2.3rem] p-1">
                 <div className="w-40 h-40 md:w-52 md:h-52 rounded-[2.2rem] overflow-hidden bg-gray-900 flex items-center justify-center border border-gray-800">
-                  <img src="/profile.jpg" alt="Muhammed Ilyas" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 hover:scale-100" />
+                  <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Muhammed Ilyas" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 hover:scale-100" />
                 </div>
               </div>
             </motion.div>
